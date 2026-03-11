@@ -80,5 +80,64 @@ cd Green-Expense
 ### Install backend dependencies
 
 ```
-cd
+cd backend
+npm install
 ```
+
+---
+
+### Install frontend dependencies
+
+```
+cd ../frontend/react
+npm install
+```
+
+---
+
+## Running the Application
+
+### Start backend
+
+```
+cd backend
+npm start
+```
+
+### Start frontend
+
+```
+cd frontend/react
+npm start
+```
+
+---
+
+## Environment Variables
+
+Create a `.env` file inside the backend directory:
+
+```
+PORT=
+DATABASE_URL=
+JWT_SECRET=
+```
+
+---
+
+## Future Improvements
+
+* Data visualization dashboards
+* Budget goal tracking
+* Mobile responsive improvements
+* Notifications for bill reminders
+* Advanced financial analytics
+
+---
+
+## Author
+
+**Kaoushik Kalyaan Nammi**
+
+GitHub:
+https://github.com/kaoushikkalyaannammi-7
