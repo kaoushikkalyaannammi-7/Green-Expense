@@ -1,0 +1,50 @@
+/* 1. Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. FullCalendar base CSS (required!) */
+@import "@fullcalendar/common/main.css";
+
+/* Limit overall calendar width and center it */
+.fc {
+  max-width: 820px;
+  margin: auto;
+}
+
+/* Calendar title styling */
+.fc .fc-toolbar-title {
+  color: #16a34a; /* Tailwind green-600 */
+}
+
+/* Reduce day cell height */
+.fc .fc-daygrid-day-frame {
+  min-height: 60px;
+}
+
+/* Compact event styling */
+.fc .fc-event {
+  background-color: #22c55e; /* Tailwind green-500 */
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+
+/* Small spacing between events */
+.fc .fc-daygrid-event {
+  margin-top: 2px;
+}
+
+/* Highlight today's date */
+.fc .fc-day-today {
+  background-color: #ecfdf5;
+}
+
+/* Smaller toolbar buttons */
+.fc .fc-button {
+  padding: 4px 8px;
+  font-size: 13px;
+}
+

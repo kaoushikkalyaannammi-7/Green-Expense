@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  z-index: 1000;
+}
+.header-container strong {
+  font-size: 50px;
+  color:#42ad2d;
+transform: translateX(-65%) ;
+  /* white-space: nowrap; */
+  
+}
+
+/* 👇 this is the key */
+.header-container {
+  max-width: 1200px;     /* controls how wide navbar can go */
+  height: 100%;
+  margin: 0 auto;        /* centers content */
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  width: 100%;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+.logo-img {
+  height: 60px;
+}
+.logo-section{
+  display:flex;
+  align-items:center;
+  gap:8px;   /* controls spacing between logo and text */
+}
+
+
+.logo-text{
+  font-size:20px;
+  font-weight:600;
+  color:#16a34a;
+}
